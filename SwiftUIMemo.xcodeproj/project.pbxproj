@@ -19,6 +19,7 @@
 		C8DFD90F2BBE35A900E2143F /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DFD90E2BBE35A900E2143F /* Memo.swift */; };
 		C8DFD9112BBE361D00E2143F /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DFD9102BBE361D00E2143F /* MemoStore.swift */; };
 		C8DFD9142BBE465700E2143F /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DFD9132BBE465700E2143F /* MemoCell.swift */; };
+		C8DFD9162BBE47B300E2143F /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DFD9152BBE47B300E2143F /* ComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C8DFD90E2BBE35A900E2143F /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		C8DFD9102BBE361D00E2143F /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		C8DFD9132BBE465700E2143F /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		C8DFD9152BBE47B300E2143F /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,6 @@
 				C8DFD90D2BBE343600E2143F /* Memory */,
 				C8DFD90C2BBE342F00E2143F /* CoreData */,
 				C8DFD8DA2BBE339F00E2143F /* SwiftUIMemoApp.swift */,
-				C8DFD90A2BBE33EC00E2143F /* MainListView.swift */,
 				C8DFD8E32BBE33A100E2143F /* Assets.xcassets */,
 				C8DFD8E52BBE33A100E2143F /* SwiftUIMemo.entitlements */,
 				C8DFD8E62BBE33A100E2143F /* Preview Content */,
@@ -163,7 +164,9 @@
 		C8DFD9122BBE464600E2143F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C8DFD90A2BBE33EC00E2143F /* MainListView.swift */,
 				C8DFD9132BBE465700E2143F /* MemoCell.swift */,
+				C8DFD9152BBE47B300E2143F /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				C8DFD9112BBE361D00E2143F /* MemoStore.swift in Sources */,
 				C8DFD8E02BBE339F00E2143F /* SwiftUIMemo.xcdatamodeld in Sources */,
 				C8DFD8DB2BBE339F00E2143F /* SwiftUIMemoApp.swift in Sources */,
+				C8DFD9162BBE47B300E2143F /* ComposeView.swift in Sources */,
 				C8DFD8DD2BBE339F00E2143F /* Persistence.swift in Sources */,
 				C8DFD90F2BBE35A900E2143F /* Memo.swift in Sources */,
 			);
