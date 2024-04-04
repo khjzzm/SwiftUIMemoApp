@@ -34,7 +34,7 @@ struct MainListView: View {
             .sheet(isPresented: $showComposer){
                 ComposeView()
             }
-        }
+        }.navigationViewStyle(.stack)
     }
 }
 
