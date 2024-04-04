@@ -12,12 +12,12 @@ struct ComposeView: View {
     
     @Environment(\.dismiss) var dismiss
     
-    @State private var contenst : String = ""
+    @State private var contents : String = ""
     
     var body: some View {
         NavigationView{
             VStack {
-                TextEditor(text: $contenst)
+                TextEditor(text: $contents)
                     .padding()
             }
             .navigationTitle("새 메모")
@@ -33,7 +33,7 @@ struct ComposeView: View {
                 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
-                        store.insert(memo: contenst)
+                        store.insert(memo: contents)
                         dismiss()
                     } label: {
                         Text("저장")
